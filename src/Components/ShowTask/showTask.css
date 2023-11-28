@@ -1,0 +1,48 @@
+.task-title {
+	padding: 10px 15px;
+	background-color: lightblue;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.delete-icon {
+	position: absolute;
+	right: 25px;
+}
+.edit-icon {
+	position: absolute;
+	right: 50px;
+}
+.task-name-wrapper {
+	margin-left: 200px;
+	max-width: 670px;
+	padding: 10px;
+	background-color: #fff;
+	margin-top: 5px;
+	color: black;
+	position: relative;
+}
+.completed-task {
+	text-decoration: line-through;
+}
+.fa-check-circle {
+	padding-right: 5px;
+}
+.show-task-wrapper {
+	margin-left: 100px;
+}
+/* For toggle the task detail */
+.content {
+  height: 0;
+  overflow: hidden;
+  /* transition: height 0.3s ease; */
+}
+
+.open {
+  height: 30px; /* Adjust the desired height */
+}
+
+.closed {
+  height: 0;
+}

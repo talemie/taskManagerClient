@@ -1,0 +1,15 @@
+.edit-form{
+    background-color: #fff;
+    margin-bottom: 200px;
+}
+#check-complete{
+    padding-left: 50px !important;
+}
+.btn-success
+{
+    margin-left: 0
+}
+.update-status-alert{
+    color: green;
+    padding: 20px;
+}
